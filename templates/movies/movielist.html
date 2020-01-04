@@ -61,7 +61,8 @@
 </style>
 
 <div class="row" style="width: 100%;margin-left: 0;">
-    <div class="col-md-4" style="background-color:rgb(192, 225, 231);">
+    <div class="col-md-4"
+        style="background-color:rgb(192, 225, 231); border-radius:50px; border:1px solid rgb(4, 146, 189);">
         <div style="text-align: center;" class="dropdown">
             <div class="btn-group">
                 <button type="button" class="btn btn-lg" data-toggle=dropdown>Category <span
@@ -92,7 +93,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4" style="background-color:rgb(192, 225, 231);">
+    <div class="col-md-4" style="background-color:rgb(192, 225, 231); border-radius:50px; border:1px solid rgb(4, 146, 189);">
         <div style="text-align: center;" class="dropdown">
             <div class="btn-group">
                 <button type="button" class="btn btn-lg" data-toggle=dropdown>Year <span
@@ -129,23 +130,24 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4" style="background-color:rgb(192, 225, 231);">
+    <div class="col-md-4" style="background-color:rgb(192, 225, 231); border-radius:50px; border:1px solid rgb(4, 146, 189);">
         <div style="text-align: center;" class="dropdown">
             <div class="btn-group">
                 <button type="button" class="btn btn-lg" > <a href="/movies/imdb/"
-                        style="color: #070707;"> Imdb 7+ <span class="btn dropdown-toggle dropdown-toggle-split"></span>
-                    </a>
-                </button>
+                    style="color: #070707;"> Imdb 7+ <span class="btn dropdown-toggle dropdown-toggle-split"></span>
+                </a>
+            </button>
+              
             </div>
         </div>
     </div>
-
+ 
 </div>
 
 <br>
 <div>
 
-    <div style="text-align: center;height:30px; padding-bottom:10px" class="row">
+    <div style="text-align: center;height:30px; padding-bottom:10px;" class="row">
         <div style="width: 800px; background-color:black; float:center; border-radius:50px;" class="container">
             <h1 style="color:white; text-align:center;margin-top:10px">{{title}}</h1>
             {% if 'imdb' in request.path %}
@@ -207,7 +209,7 @@
     
         
     </style>
-    <div class="row">
+    <div class="row" style="margin-left: 15px;">
         <div class="col-xs-12 col-md-12">
             <div style="float:left;padding-top:20px;padding-left:4px;max-width: 1050px; background: #070707; overflow: auto; border-radius:5px; display: flex; flex-flow: row wrap; justify-content:space-around"
                 class="container">
